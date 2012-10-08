@@ -4,11 +4,9 @@ print '''Content-type: text/html\n\n
 <h2>The shotgunator!</h2>
 
 This is a simple script that "shotgun sequences" paragraphs of text,
-producing reads of a configurable length, mutation rate, and coverage.
-I use it to demonstrate shotgun sequencing and de novo assembly to
-students.
-<p>
-<p align='right'>--titus</font></p>
+by producing "reads" of a configurable length, mutation rate, and
+coverage.  I use it to demonstrate shotgun sequencing and de novo
+assembly to students.  <p> <p align='right'>--titus</font></p>
 
 <p>
 <hr>
@@ -27,6 +25,14 @@ Coverage: <input type='text' name='cov' value='10' size='4'><p>
 Sort results? <select name='sorted'>
   <option value='yes'> Yes
   <option value='no'> No
+</select>
+<p>
+Paired ends?
+<select name='paired'>
+  <option value='yes'> Yes
+  <option value='no'> No
+</select>
+If yes, insert size? <input type='text' name='insert' value='25' size='4'>
 </select>
 <p>
 </form>
