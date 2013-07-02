@@ -13,7 +13,7 @@ assembly to students.  <p> <p align='right'>--titus</font></p>
 
 <form method='POST' action='shotgun.cgi'>
 Enter some text to sequence (leave blank for Tale of Two Cities):<br>
-<textarea cols='60' rows='5'></textarea><br>
+<textarea name='text' cols='60' rows='5'></textarea><br>
 <font size='-1'><i>Separate paragraphs by a blank line.</i>
 </font><br>
 <p>
