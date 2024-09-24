@@ -1,3 +1,4 @@
+#! /usr/bin/env python
 import argparse
 import random
 
@@ -102,7 +103,7 @@ def main():
             samples2.append("".join(s))
         samples = samples2
 
-    print "\n".join(samples)
+    print("\n".join(samples))
 
 if __name__ == '__main__':
     main()
